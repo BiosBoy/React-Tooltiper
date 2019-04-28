@@ -1,0 +1,1154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip test /> should not render Tooltip in case of showTooltip = false flag  1`] = `
+<ToolTip
+  actionOnEntered={[Function]}
+  actionOnExit={[Function]}
+  addArrow={true}
+  animProps={
+    Object {
+      "className": "tooltip",
+      "timeExit": 1000,
+      "timeIn": 30,
+    }
+  }
+  closeButton={
+    Object {
+      "actionOnClose": [Function],
+      "active": false,
+      "buttonChildren": "",
+    }
+  }
+  customCoords={
+    Object {
+      "active": false,
+      "left": "",
+      "top": "",
+    }
+  }
+  overrideStyles={
+    Object {
+      "arrowWrap": "",
+      "button": "",
+      "container": "",
+      "title": "",
+      "tooltipArrow": "",
+      "wrap": "",
+    }
+  }
+  position={
+    Object {
+      "x": "center",
+      "y": "top",
+    }
+  }
+>
+  <CSSTransition
+    classNames="tooltip"
+    in={false}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onExited={[Function]}
+    timeout={
+      Object {
+        "enter": 30,
+        "exit": 1000,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <Transition
+      appear={false}
+      enter={true}
+      exit={true}
+      in={false}
+      mountOnEnter={false}
+      onEnter={[Function]}
+      onEntered={[Function]}
+      onEntering={[Function]}
+      onExit={[Function]}
+      onExited={[Function]}
+      onExiting={[Function]}
+      timeout={
+        Object {
+          "enter": 30,
+          "exit": 1000,
+        }
+      }
+      unmountOnExit={true}
+    />
+  </CSSTransition>
+</ToolTip>
+`;
+
+exports[`<Tooltip test /> should render Tooltip by custom coords props 1`] = `
+<ToolTip
+  actionOnEntered={[Function]}
+  actionOnExit={[Function]}
+  addArrow={true}
+  animProps={
+    Object {
+      "className": "tooltip",
+      "timeExit": 1000,
+      "timeIn": 30,
+    }
+  }
+  closeButton={
+    Object {
+      "actionOnClose": [Function],
+      "active": false,
+      "buttonChildren": "",
+    }
+  }
+  customCoords={
+    Object {
+      "left": "20px",
+      "top": "105px",
+    }
+  }
+  overrideStyles={
+    Object {
+      "arrowWrap": "",
+      "button": "",
+      "container": "",
+      "title": "",
+      "tooltipArrow": "",
+      "wrap": "",
+    }
+  }
+  position={
+    Object {
+      "x": "center",
+      "y": "top",
+    }
+  }
+>
+  <CSSTransition
+    classNames="tooltip"
+    in={true}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onExited={[Function]}
+    timeout={
+      Object {
+        "enter": 30,
+        "exit": 1000,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <Transition
+      appear={false}
+      enter={true}
+      exit={true}
+      in={true}
+      mountOnEnter={false}
+      onEnter={[Function]}
+      onEntered={[Function]}
+      onEntering={[Function]}
+      onExit={[Function]}
+      onExited={[Function]}
+      onExiting={[Function]}
+      timeout={
+        Object {
+          "enter": 30,
+          "exit": 1000,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <div
+        className="tooltipWrap "
+        id="#react-tooltip-tooltip-test"
+        style={
+          Object {
+            "flexDirection": "column",
+            "left": 0,
+            "pointerEvents": "none",
+            "top": -120,
+            "transform": "translate(-50%, 0%)",
+          }
+        }
+      >
+        <div
+          className=" tooltipContainer"
+          key="1"
+        >
+          <CloseButton
+            active={false}
+            buttonChildren=""
+            buttonStyles="button closeButton "
+            clickAction={[Function]}
+          />
+          <span
+            className="title "
+          >
+            TEST TOOLTIP
+          </span>
+        </div>
+        <Arrow
+          addArrow={true}
+          arrowRotate={
+            Object {
+              "coordX": "center",
+              "coordY": "top",
+            }
+          }
+          arrowStyles=" tooltipArrow"
+          arrowWrapStyles=" arrowWrap"
+          key="2"
+        >
+          <div
+            className=" arrowWrap"
+          >
+            <div
+              className="arrow arrowcentertop  tooltipArrow"
+            />
+          </div>
+        </Arrow>
+      </div>
+    </Transition>
+  </CSSTransition>
+</ToolTip>
+`;
+
+exports[`<Tooltip test /> should render Tooltip by manual coords coords fix props 1`] = `
+<ToolTip
+  actionOnEntered={[Function]}
+  actionOnExit={[Function]}
+  addArrow={true}
+  animProps={
+    Object {
+      "className": "tooltip",
+      "timeExit": 1000,
+      "timeIn": 30,
+    }
+  }
+  closeButton={
+    Object {
+      "actionOnClose": [Function],
+      "active": false,
+      "buttonChildren": "",
+    }
+  }
+  customCoords={
+    Object {
+      "active": false,
+      "left": "",
+      "top": "",
+    }
+  }
+  manualCoodsFix={
+    Object {
+      "fixX": -2,
+      "fixY": -3,
+    }
+  }
+  overrideStyles={
+    Object {
+      "arrowWrap": "",
+      "button": "",
+      "container": "",
+      "title": "",
+      "tooltipArrow": "",
+      "wrap": "",
+    }
+  }
+  position={
+    Object {
+      "x": "center",
+      "y": "top",
+    }
+  }
+>
+  <CSSTransition
+    classNames="tooltip"
+    in={true}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onExited={[Function]}
+    timeout={
+      Object {
+        "enter": 30,
+        "exit": 1000,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <Transition
+      appear={false}
+      enter={true}
+      exit={true}
+      in={true}
+      mountOnEnter={false}
+      onEnter={[Function]}
+      onEntered={[Function]}
+      onEntering={[Function]}
+      onExit={[Function]}
+      onExited={[Function]}
+      onExiting={[Function]}
+      timeout={
+        Object {
+          "enter": 30,
+          "exit": 1000,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <div
+        className="tooltipWrap "
+        id="#react-tooltip-tooltip-test"
+        style={
+          Object {
+            "flexDirection": "column",
+            "left": -3,
+            "pointerEvents": "none",
+            "top": -122,
+            "transform": "translate(-50%, 0%)",
+          }
+        }
+      >
+        <div
+          className=" tooltipContainer"
+          key="1"
+        >
+          <CloseButton
+            active={false}
+            buttonChildren=""
+            buttonStyles="button closeButton "
+            clickAction={[Function]}
+          />
+          <span
+            className="title "
+          >
+            TEST TOOLTIP
+          </span>
+        </div>
+        <Arrow
+          addArrow={true}
+          arrowRotate={
+            Object {
+              "coordX": "center",
+              "coordY": "top",
+            }
+          }
+          arrowStyles=" tooltipArrow"
+          arrowWrapStyles=" arrowWrap"
+          key="2"
+        >
+          <div
+            className=" arrowWrap"
+          >
+            <div
+              className="arrow arrowcentertop  tooltipArrow"
+            />
+          </div>
+        </Arrow>
+      </div>
+    </Transition>
+  </CSSTransition>
+</ToolTip>
+`;
+
+exports[`<Tooltip test /> should render Tooltip by position props 1`] = `
+<ToolTip
+  actionOnEntered={[Function]}
+  actionOnExit={[Function]}
+  addArrow={true}
+  animProps={
+    Object {
+      "className": "tooltip",
+      "timeExit": 1000,
+      "timeIn": 30,
+    }
+  }
+  closeButton={
+    Object {
+      "actionOnClose": [Function],
+      "active": false,
+      "buttonChildren": "",
+    }
+  }
+  customCoords={
+    Object {
+      "active": false,
+      "left": "",
+      "top": "",
+    }
+  }
+  overrideStyles={
+    Object {
+      "arrowWrap": "",
+      "button": "",
+      "container": "",
+      "title": "",
+      "tooltipArrow": "",
+      "wrap": "",
+    }
+  }
+  position={
+    Object {
+      "x": "center",
+      "y": "top",
+    }
+  }
+>
+  <CSSTransition
+    classNames="tooltip"
+    in={true}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onExited={[Function]}
+    timeout={
+      Object {
+        "enter": 30,
+        "exit": 1000,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <Transition
+      appear={false}
+      enter={true}
+      exit={true}
+      in={true}
+      mountOnEnter={false}
+      onEnter={[Function]}
+      onEntered={[Function]}
+      onEntering={[Function]}
+      onExit={[Function]}
+      onExited={[Function]}
+      onExiting={[Function]}
+      timeout={
+        Object {
+          "enter": 30,
+          "exit": 1000,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <div
+        className="tooltipWrap "
+        id="#react-tooltip-tooltip-test"
+        style={
+          Object {
+            "flexDirection": "column",
+            "left": 0,
+            "pointerEvents": "none",
+            "top": -120,
+            "transform": "translate(-50%, 0%)",
+          }
+        }
+      >
+        <div
+          className=" tooltipContainer"
+          key="1"
+        >
+          <CloseButton
+            active={false}
+            buttonChildren=""
+            buttonStyles="button closeButton "
+            clickAction={[Function]}
+          />
+          <span
+            className="title "
+          >
+            TEST TOOLTIP
+          </span>
+        </div>
+        <Arrow
+          addArrow={true}
+          arrowRotate={
+            Object {
+              "coordX": "center",
+              "coordY": "top",
+            }
+          }
+          arrowStyles=" tooltipArrow"
+          arrowWrapStyles=" arrowWrap"
+          key="2"
+        >
+          <div
+            className=" arrowWrap"
+          >
+            <div
+              className="arrow arrowcentertop  tooltipArrow"
+            />
+          </div>
+        </Arrow>
+      </div>
+    </Transition>
+  </CSSTransition>
+</ToolTip>
+`;
+
+exports[`<Tooltip test /> should render Tooltip with Close Button 1`] = `
+<ToolTip
+  actionOnEntered={[Function]}
+  actionOnExit={[Function]}
+  addArrow={true}
+  animProps={
+    Object {
+      "className": "tooltip",
+      "timeExit": 1000,
+      "timeIn": 30,
+    }
+  }
+  closeButton={
+    Object {
+      "active": true,
+      "buttonChildren": "XXX",
+    }
+  }
+  customCoords={
+    Object {
+      "active": false,
+      "left": "",
+      "top": "",
+    }
+  }
+  overrideStyles={
+    Object {
+      "arrowWrap": "",
+      "button": "",
+      "container": "",
+      "title": "",
+      "tooltipArrow": "",
+      "wrap": "",
+    }
+  }
+  position={
+    Object {
+      "x": "center",
+      "y": "top",
+    }
+  }
+>
+  <CSSTransition
+    classNames="tooltip"
+    in={true}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onExited={[Function]}
+    timeout={
+      Object {
+        "enter": 30,
+        "exit": 1000,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <Transition
+      appear={false}
+      enter={true}
+      exit={true}
+      in={true}
+      mountOnEnter={false}
+      onEnter={[Function]}
+      onEntered={[Function]}
+      onEntering={[Function]}
+      onExit={[Function]}
+      onExited={[Function]}
+      onExiting={[Function]}
+      timeout={
+        Object {
+          "enter": 30,
+          "exit": 1000,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <div
+        className="tooltipWrap "
+        id="#react-tooltip-tooltip-test"
+        style={
+          Object {
+            "flexDirection": "column",
+            "left": 0,
+            "pointerEvents": "all",
+            "top": -120,
+            "transform": "translate(-50%, 0%)",
+          }
+        }
+      >
+        <div
+          className=" tooltipContainer"
+          key="1"
+        >
+          <CloseButton
+            active={true}
+            buttonChildren="XXX"
+            buttonStyles="button closeButton "
+            clickAction={[Function]}
+          >
+            <button
+              className="button closeButton "
+              onClick={[Function]}
+              type="button"
+            >
+              XXX
+            </button>
+          </CloseButton>
+          <span
+            className="title "
+          >
+            TEST TOOLTIP
+          </span>
+        </div>
+        <Arrow
+          addArrow={true}
+          arrowRotate={
+            Object {
+              "coordX": "center",
+              "coordY": "top",
+            }
+          }
+          arrowStyles=" tooltipArrow"
+          arrowWrapStyles=" arrowWrap"
+          key="2"
+        >
+          <div
+            className=" arrowWrap"
+          >
+            <div
+              className="arrow arrowcentertop  tooltipArrow"
+            />
+          </div>
+        </Arrow>
+      </div>
+    </Transition>
+  </CSSTransition>
+</ToolTip>
+`;
+
+exports[`<Tooltip test /> should render Tooltip with Close Button. By click on it should remove Tooltip at all 1`] = `
+<ToolTip
+  actionOnEntered={[Function]}
+  actionOnExit={[Function]}
+  addArrow={true}
+  animProps={
+    Object {
+      "className": "tooltip",
+      "timeExit": 1000,
+      "timeIn": 30,
+    }
+  }
+  closeButton={
+    Object {
+      "active": true,
+      "buttonChildren": "XXX",
+    }
+  }
+  customCoords={
+    Object {
+      "active": false,
+      "left": "",
+      "top": "",
+    }
+  }
+  overrideStyles={
+    Object {
+      "arrowWrap": "",
+      "button": "",
+      "container": "",
+      "title": "",
+      "tooltipArrow": "",
+      "wrap": "",
+    }
+  }
+  position={
+    Object {
+      "x": "center",
+      "y": "top",
+    }
+  }
+>
+  <CSSTransition
+    classNames="tooltip"
+    in={true}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onExited={[Function]}
+    timeout={
+      Object {
+        "enter": 30,
+        "exit": 1000,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <Transition
+      appear={false}
+      enter={true}
+      exit={true}
+      in={true}
+      mountOnEnter={false}
+      onEnter={[Function]}
+      onEntered={[Function]}
+      onEntering={[Function]}
+      onExit={[Function]}
+      onExited={[Function]}
+      onExiting={[Function]}
+      timeout={
+        Object {
+          "enter": 30,
+          "exit": 1000,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <div
+        className="tooltipWrap "
+        id="#react-tooltip-tooltip-test"
+        style={
+          Object {
+            "flexDirection": "column",
+            "left": 0,
+            "pointerEvents": "all",
+            "top": -120,
+            "transform": "translate(-50%, 0%)",
+          }
+        }
+      >
+        <div
+          className=" tooltipContainer"
+          key="1"
+        >
+          <CloseButton
+            active={true}
+            buttonChildren="XXX"
+            buttonStyles="button closeButton "
+            clickAction={[Function]}
+          >
+            <button
+              className="button closeButton "
+              onClick={[Function]}
+              type="button"
+            >
+              XXX
+            </button>
+          </CloseButton>
+          <span
+            className="title "
+          >
+            TEST TOOLTIP
+          </span>
+        </div>
+        <Arrow
+          addArrow={true}
+          arrowRotate={
+            Object {
+              "coordX": "center",
+              "coordY": "top",
+            }
+          }
+          arrowStyles=" tooltipArrow"
+          arrowWrapStyles=" arrowWrap"
+          key="2"
+        >
+          <div
+            className=" arrowWrap"
+          >
+            <div
+              className="arrow arrowcentertop  tooltipArrow"
+            />
+          </div>
+        </Arrow>
+      </div>
+    </Transition>
+  </CSSTransition>
+</ToolTip>
+`;
+
+exports[`<Tooltip test /> should render Tooltip with Close Button. By click on it should remove Tooltip at all 2`] = `
+<ToolTip
+  actionOnEntered={[Function]}
+  actionOnExit={[Function]}
+  addArrow={true}
+  animProps={
+    Object {
+      "className": "tooltip",
+      "timeExit": 1000,
+      "timeIn": 30,
+    }
+  }
+  closeButton={
+    Object {
+      "active": true,
+      "buttonChildren": "XXX",
+    }
+  }
+  customCoords={
+    Object {
+      "active": false,
+      "left": "",
+      "top": "",
+    }
+  }
+  overrideStyles={
+    Object {
+      "arrowWrap": "",
+      "button": "",
+      "container": "",
+      "title": "",
+      "tooltipArrow": "",
+      "wrap": "",
+    }
+  }
+  position={
+    Object {
+      "x": "center",
+      "y": "top",
+    }
+  }
+>
+  <CSSTransition
+    classNames="tooltip"
+    in={false}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onExited={[Function]}
+    timeout={
+      Object {
+        "enter": 30,
+        "exit": 1000,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <Transition
+      appear={false}
+      enter={true}
+      exit={true}
+      in={false}
+      mountOnEnter={false}
+      onEnter={[Function]}
+      onEntered={[Function]}
+      onEntering={[Function]}
+      onExit={[Function]}
+      onExited={[Function]}
+      onExiting={[Function]}
+      timeout={
+        Object {
+          "enter": 30,
+          "exit": 1000,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <div
+        className="tooltipWrap "
+        id="#react-tooltip-"
+        style={
+          Object {
+            "flexDirection": "column",
+            "left": 0,
+            "pointerEvents": "all",
+            "top": 0,
+            "transform": "translate(-50%, 0%)",
+          }
+        }
+      >
+        <div
+          className=" tooltipContainer"
+          key="1"
+        >
+          <CloseButton
+            active={true}
+            buttonChildren="XXX"
+            buttonStyles="button closeButton "
+            clickAction={[Function]}
+          >
+            <button
+              className="button closeButton "
+              onClick={[Function]}
+              type="button"
+            >
+              XXX
+            </button>
+          </CloseButton>
+          <span
+            className="title "
+          />
+        </div>
+        <Arrow
+          addArrow={true}
+          arrowRotate={
+            Object {
+              "coordX": "center",
+              "coordY": "top",
+            }
+          }
+          arrowStyles=" tooltipArrow"
+          arrowWrapStyles=" arrowWrap"
+          key="2"
+        >
+          <div
+            className=" arrowWrap"
+          >
+            <div
+              className="arrow arrowcentertop  tooltipArrow"
+            />
+          </div>
+        </Arrow>
+      </div>
+    </Transition>
+  </CSSTransition>
+</ToolTip>
+`;
+
+exports[`<Tooltip test /> should render Tooltip without Arrow 1`] = `
+<ToolTip
+  actionOnEntered={[Function]}
+  actionOnExit={[Function]}
+  addArrow={false}
+  animProps={
+    Object {
+      "className": "tooltip",
+      "timeExit": 1000,
+      "timeIn": 30,
+    }
+  }
+  closeButton={
+    Object {
+      "actionOnClose": [Function],
+      "active": false,
+      "buttonChildren": "",
+    }
+  }
+  customCoords={
+    Object {
+      "active": false,
+      "left": "",
+      "top": "",
+    }
+  }
+  overrideStyles={
+    Object {
+      "arrowWrap": "",
+      "button": "",
+      "container": "",
+      "title": "",
+      "tooltipArrow": "",
+      "wrap": "",
+    }
+  }
+  position={
+    Object {
+      "x": "center",
+      "y": "top",
+    }
+  }
+>
+  <CSSTransition
+    classNames="tooltip"
+    in={true}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onExited={[Function]}
+    timeout={
+      Object {
+        "enter": 30,
+        "exit": 1000,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <Transition
+      appear={false}
+      enter={true}
+      exit={true}
+      in={true}
+      mountOnEnter={false}
+      onEnter={[Function]}
+      onEntered={[Function]}
+      onEntering={[Function]}
+      onExit={[Function]}
+      onExited={[Function]}
+      onExiting={[Function]}
+      timeout={
+        Object {
+          "enter": 30,
+          "exit": 1000,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <div
+        className="tooltipWrap "
+        id="#react-tooltip-tooltip-test"
+        style={
+          Object {
+            "flexDirection": "column",
+            "left": 0,
+            "pointerEvents": "none",
+            "top": -120,
+            "transform": "translate(-50%, 0%)",
+          }
+        }
+      >
+        <div
+          className=" tooltipContainer"
+          key="1"
+        >
+          <CloseButton
+            active={false}
+            buttonChildren=""
+            buttonStyles="button closeButton "
+            clickAction={[Function]}
+          />
+          <span
+            className="title "
+          >
+            TEST TOOLTIP
+          </span>
+        </div>
+        <Arrow
+          addArrow={false}
+          arrowRotate={
+            Object {
+              "coordX": "center",
+              "coordY": "top",
+            }
+          }
+          arrowStyles=" tooltipArrow"
+          arrowWrapStyles=" arrowWrap"
+          key="2"
+        />
+      </div>
+    </Transition>
+  </CSSTransition>
+</ToolTip>
+`;
+
+exports[`<Tooltip test /> should render basic Tooltip with Title and Arrow included 1`] = `
+<ToolTip
+  actionOnEntered={[Function]}
+  actionOnExit={[Function]}
+  addArrow={true}
+  animProps={
+    Object {
+      "className": "tooltip",
+      "timeExit": 1000,
+      "timeIn": 30,
+    }
+  }
+  closeButton={
+    Object {
+      "actionOnClose": [Function],
+      "active": false,
+      "buttonChildren": "",
+    }
+  }
+  customCoords={
+    Object {
+      "active": false,
+      "left": "",
+      "top": "",
+    }
+  }
+  overrideStyles={
+    Object {
+      "arrowWrap": "",
+      "button": "",
+      "container": "",
+      "title": "",
+      "tooltipArrow": "",
+      "wrap": "",
+    }
+  }
+  position={
+    Object {
+      "x": "center",
+      "y": "top",
+    }
+  }
+>
+  <CSSTransition
+    classNames="tooltip"
+    in={true}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onExited={[Function]}
+    timeout={
+      Object {
+        "enter": 30,
+        "exit": 1000,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <Transition
+      appear={false}
+      enter={true}
+      exit={true}
+      in={true}
+      mountOnEnter={false}
+      onEnter={[Function]}
+      onEntered={[Function]}
+      onEntering={[Function]}
+      onExit={[Function]}
+      onExited={[Function]}
+      onExiting={[Function]}
+      timeout={
+        Object {
+          "enter": 30,
+          "exit": 1000,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <div
+        className="tooltipWrap "
+        id="#react-tooltip-tooltip-test"
+        style={
+          Object {
+            "flexDirection": "column",
+            "left": 0,
+            "pointerEvents": "none",
+            "top": -120,
+            "transform": "translate(-50%, 0%)",
+          }
+        }
+      >
+        <div
+          className=" tooltipContainer"
+          key="1"
+        >
+          <CloseButton
+            active={false}
+            buttonChildren=""
+            buttonStyles="button closeButton "
+            clickAction={[Function]}
+          />
+          <span
+            className="title "
+          >
+            TEST TOOLTIP
+          </span>
+        </div>
+        <Arrow
+          addArrow={true}
+          arrowRotate={
+            Object {
+              "coordX": "center",
+              "coordY": "top",
+            }
+          }
+          arrowStyles=" tooltipArrow"
+          arrowWrapStyles=" arrowWrap"
+          key="2"
+        >
+          <div
+            className=" arrowWrap"
+          >
+            <div
+              className="arrow arrowcentertop  tooltipArrow"
+            />
+          </div>
+        </Arrow>
+      </div>
+    </Transition>
+  </CSSTransition>
+</ToolTip>
+`;

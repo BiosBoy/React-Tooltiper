@@ -1,0 +1,57 @@
+.wrap {
+  padding: 5px 35px;
+  border: none;
+  border: 5px solid #888;
+  border-radius: 1px;
+  box-shadow: 0 0 5px #999;
+  background-color: red;
+  transform: translateX(-50%);
+
+  .container {
+    background: green;
+  }
+
+  .title {
+    color: #fff;
+  }
+
+  .arrowWrap {
+    width: 15px;
+  }
+
+  .tooltipArrow {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+    left: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-width: 7px 7px 0;
+    border-style: solid;
+    border-color: red transparent transparent;
+    filter: drop-shadow(0 1px .6px #a7a7a7);
+  }
+}
+
+// Tooltip animation props
+:global {
+  .crimesTooltip-enter {
+    opacity: 0;
+    transition: opacity .3s ease-in;
+
+    &.crimesTooltip-enter-active {
+      opacity: 1;
+    }
+  }
+
+  .crimesTooltip-exit {
+    opacity: 1;
+    transition: opacity 0 linear;
+
+    &.crimesTooltip-exit-active {
+      opacity: 0;
+    }
+  }
+}

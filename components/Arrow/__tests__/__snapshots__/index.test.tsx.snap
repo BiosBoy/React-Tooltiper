@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip Arrow test /> should not render Arrow in case of addArrow = false flag  1`] = `
+<Arrow
+  addArrow={false}
+  arrowStyles="tooltipArrow"
+  arrowWrapStyles="arrowWrap"
+/>
+`;
+
+exports[`<Tooltip Arrow test /> should render basic Arrow 1`] = `
+<Arrow
+  addArrow={true}
+  arrowStyles="tooltipArrow"
+  arrowWrapStyles="arrowWrap"
+>
+  <div
+    className="arrowWrap"
+  >
+    <div
+      className="arrow arrowcentertop tooltipArrow"
+    />
+  </div>
+</Arrow>
+`;
+
+exports[`<Tooltip Arrow test /> should render rotated Arrow on 180 degree 1`] = `
+<Arrow
+  addArrow={true}
+  arrowRotate={
+    Object {
+      "coordX": "center",
+      "coordY": "bottom",
+    }
+  }
+  arrowStyles="tooltipArrow"
+  arrowWrapStyles="arrowWrap"
+>
+  <div
+    className="arrowWrap"
+  >
+    <div
+      className="arrow arrowcenterbottom tooltipArrow"
+    />
+  </div>
+</Arrow>
+`;

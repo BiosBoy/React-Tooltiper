@@ -1,0 +1,27 @@
+.arrow {
+  z-index: 100000;
+}
+
+.arrowlefttop,
+.arrowrighttop,
+.arrowcentercenter,
+.arrowrightbottom,
+.arrowleftbottom {
+  display: none;
+}
+
+.arrowrightcenter {
+  transform: rotate(90deg);
+}
+
+.arrowleftcenter {
+  transform: rotate(-90deg);
+}
+
+.arrowcenterbottom {
+  transform: rotate(180deg);
+}
+
+.arrowcentertop {
+  transform: rotate(0deg);
+}

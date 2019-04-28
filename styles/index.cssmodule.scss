@@ -1,0 +1,81 @@
+.box {
+  padding: 5px 5px;
+  line-height: 15px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.tooltipWrap {
+  position: absolute;
+  z-index: 111111111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 1;
+}
+
+.tooltipContainer {
+  display: block;
+  max-width: 105px;
+  max-height: 22px;
+  width: auto;
+  height: auto;
+  background: #fff;
+  composes: box;
+}
+
+.arrowWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7px;
+  height: 7px;
+}
+
+.arrow {
+  content: "";
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+}
+
+.tooltipArrow {
+  composes: arrow;
+  position: relative;
+  border-width: 7px 7px 0;
+  border-style: solid;
+  border-color: #fff transparent transparent;
+  filter: drop-shadow(0 2px .6px #a7a7a7);
+}
+
+.title {
+  padding: 0 10px;
+  color: inherit;
+  font: inherit;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.closeButton {
+  position: relative;
+  top: 1px;
+  right: 4px;
+  width: auto;
+  float: right;
+  composes: button;
+
+  &:hover {
+    color: red;
+  }
+}

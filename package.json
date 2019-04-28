@@ -1,0 +1,15 @@
+{
+  "name": "@torn/Tooltip",
+  "version": "3.0.1",
+  "author": "3p-sviat",
+  "description": "React-based Tooltip for all Torn's Apps",
+  "scripts": {},
+  "dependencies": {
+    "react-transition-group": "^2.5.3",
+    "classnames": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/react-transition-group": "^2.0.14",
+    "@types/classnames": "^2.2.6"
+  }
+}

@@ -1,0 +1,17 @@
+.tooltip-enter {
+  opacity: 0;
+  transition: opacity 1s linear;
+
+  &.tooltip-enter-active {
+    opacity: 1;
+  }
+}
+
+.tooltip-exit {
+  opacity: 1;
+  transition: opacity .3s linear;
+
+  &.tooltip-exit-active {
+    opacity: 0;
+  }
+}

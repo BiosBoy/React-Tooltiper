@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CloseButton Arrow test /> should not render CloseButton in case of active flag is not provided  1`] = `
+<CloseButton
+  active={false}
+  buttonStyles="closeButton"
+  clickAction={[Function]}
+/>
+`;
+
+exports[`<CloseButton Arrow test /> should render basic CloseButton 1`] = `
+<CloseButton
+  active={true}
+  buttonStyles="closeButton"
+  clickAction={[Function]}
+>
+  <button
+    className="closeButton"
+    onClick={[Function]}
+    type="button"
+  >
+    X
+  </button>
+</CloseButton>
+`;
