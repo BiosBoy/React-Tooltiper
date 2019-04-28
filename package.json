@@ -1,9 +1,31 @@
 {
-  "name": "@torn/Tooltip",
-  "version": "3.0.1",
-  "author": "3p-sviat",
-  "description": "React-based Tooltip for all Torn's Apps",
-  "scripts": {},
+  "name": "react-tooltiper",
+  "version": "1.0.0",
+  "description": "Awesome library for creating best Tooltips ever, based on top of the React 16!",
+  "main": "index.tsx",
+  "author": "Sviatoslav Kuzhelev Front-End Dev <sviat770@gmail.com> <https://sviathuzh.top>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiosBoy/react-tooltiper.git"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "popup",
+    "react",
+    "react-tooltiper",
+    "tooltips",
+    "react-tooltips"
+  ],
+  "bugs": {
+    "url": "https://github.com/BiosBoy/react-tooltiper/issues"
+  },
+  "homepage": "https://github.com/BiosBoy/react-tooltiper",
+  "scripts": {
+    "test:all": "jest --config jest.config.js",
+    "storybook": "start-storybook -p 6006 -c .storybook -s ./public"
+  },
   "dependencies": {
     "react-transition-group": "^2.5.3",
     "classnames": "^2.2.5"
