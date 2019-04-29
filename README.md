@@ -3,7 +3,7 @@
 
 ### The easist way to perform tooltips in React ecosystem!
 
-[![npm](https://badgen.net/npm/v/react-tooltiper)](https://www.npmjs.com/package/react-tooltiper) [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/BiosBoy/react-tooltiper/blob/master/LICENSE) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/BiosBoy/react-tooltiper/blob/master/LICENSE) [![GitHub package version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/BiosBoy/react-tooltiper)
+[![npm](https://badgen.net/npm/v/react-tooltiper)](https://www.npmjs.com/package/react-tooltiper) [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/BiosBoy/react-tooltiper/blob/master/LICENSE) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/BiosBoy/react-tooltiper/blob/master/LICENSE) [![GitHub package version](https://img.shields.io/badge/version-1.1.1-green.svg)](https://github.com/BiosBoy/react-tooltiper)
 
   
 
