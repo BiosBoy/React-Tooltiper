@@ -80,6 +80,9 @@ yarn add react-tooltiper -g
 
 ```
   // ... component initialization
+  import tooltipSubscriber from 'react-tooltiper/utils/tooltipSubscriber'
+ 
+  // ...
   
   componentDidMount() {
     const ID = 'testID'
