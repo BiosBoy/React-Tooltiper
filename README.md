@@ -7,7 +7,7 @@
 
   
 
-![logo_image](https://raw.githubusercontent.com/BiosBoy/react-tooltiper/master/logo.png)
+![logo_image](https://raw.githubusercontent.com/BiosBoy/react-tooltiper/master/react-tooltiper_logo.png)
 
   
   
